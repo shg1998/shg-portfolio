@@ -28,6 +28,10 @@ export const aboutData = [
 
 import DownloadLineIcon from "remixicon-react/DownloadLineIcon";
 import ArrowLeftSFillIcon from "remixicon-react/ArrowLeftSFillIcon";
+import StarFillIcon from "remixicon-react/StarFillIcon";
+import StarHalfLineIcon from "remixicon-react/StarHalfLineIcon";
+import ArrowLeftSLineIcon from "remixicon-react/ArrowLeftSLineIcon";
+import ArrowRightSLineIcon from "remixicon-react/ArrowRightSLineIcon";
 
 export const downloadIcon = <DownloadLineIcon/>;
 
@@ -39,7 +43,7 @@ export const experienceData = [
     {
         year: 1,
         title: 'Foundation and Basics',
-        education:'High School Diploma: Focus on computer science, mathematics, and art/design courses',
+        education: 'High School Diploma: Focus on computer science, mathematics, and art/design courses',
         experience: [
             'Basic HTML/CSS: Learn through online tutorials and courses.',
             'Personal Projects: Create simple personal websites or blogs.'
@@ -48,7 +52,7 @@ export const experienceData = [
     {
         year: 2,
         title: 'Advances Learning and Early Experience',
-        education:'Associated Degree: Focus on computer science, mathematics, and art/design courses',
+        education: 'Associated Degree: Focus on computer science, mathematics, and art/design courses',
         experience: [
             'Basic HTML/CSS: Learn through online tutorials and courses.',
             'Personal Projects: Create simple personal websites or blogs.'
@@ -57,7 +61,7 @@ export const experienceData = [
     {
         year: 3,
         title: 'Specialized Education and Real-World Application',
-        education:'Bachelor Degree: Focus on computer science, mathematics, and art/design courses',
+        education: 'Bachelor Degree: Focus on computer science, mathematics, and art/design courses',
         experience: [
             'Basic HTML/CSS: Learn through online tutorials and courses.',
             'Personal Projects: Create simple personal websites or blogs.'
@@ -66,10 +70,65 @@ export const experienceData = [
     {
         year: 4,
         title: 'IT Education and Real-World Application',
-        education:'Master Degree: Focus on computer science, mathematics, and art/design courses',
+        education: 'Master Degree: Focus on computer science, mathematics, and art/design courses',
         experience: [
             'Basic HTML/CSS: Learn through online tutorials and courses.',
             'Personal Projects: Create simple personal websites or blogs.'
         ]
     },
 ]
+
+export const skillsData = [
+    {
+        name: 'React',
+        icon: '/skills/react.png'
+    },
+    {
+        name: 'NextJs',
+        icon: '/skills/react.png'
+    },
+    {
+        name: 'NodeJs',
+        icon: '/skills/react.png'
+    },
+    {
+        name: 'Asp.Net',
+        icon: '/skills/react.png'
+    }
+];
+
+export const reviewsData = [
+    {
+        image: "/reviews/client.png",
+        name: "Moh N., FullStack Developer",
+        comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci consequuntur delectus\n" +
+            "                            dolores eligendi fugit molestiae odit? Alias enim, exercitationem harum, iure iusto labore\n" +
+            "                            magni officiis quia saepe tempora velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci consequuntur delectus\n" +
+            "                            dolores eligendi fugit molestiae odit? Alias enim, exercitationem harum, iure iusto labore\n" +
+            "                            magni officiis quia saepe tempora velit!",
+        stars: [1, 1, 1, 1, 0.5]
+    },
+    {
+        image: "/reviews/client.png",
+        name: "Sarah N., Motion Graph :)",
+        comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci consequuntur delectus\n" +
+            "                            dolores eligendi fugit molestiae odit? Alias enim, exercitationem harum, iure iusto labore\n" +
+            "                            magni officiis quia saepe tempora velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci consequuntur delectus\n" +
+            "                            dolores eligendi fugit molestiae odit? Alias enim, exercitationem harum, iure iusto labore\n" +
+            "                            magni officiis quia saepe tempora velit!",
+        stars: [1, 1, 1, 1, 0]
+    },
+    {
+        image: "/reviews/client.png",
+        name: "Bob W.,Lifestyle Blogger",
+        comment: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci consequuntur delectus\n" +
+            "                            dolores eligendi fugit molestiae odit? Alias enim, exercitationem harum, iure iusto labore\n" +
+            "                            magni officiis quia saepe tempora velit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci consequuntur delectus\n" +
+            "                            dolores eligendi fugit molestiae odit? Alias enim, exercitationem harum, iure iusto labore\n" +
+            "                            magni officiis quia saepe tempora velit!",
+        stars: [1, 1, 1, 0, 0]
+    }
+];
+
+export const starIcons = [<StarFillIcon/>, <StarHalfLineIcon/>];
+export const arrowsIcon = [<ArrowLeftSLineIcon/>, <ArrowRightSLineIcon/>];
